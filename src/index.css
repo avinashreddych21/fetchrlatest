@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Base font */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Reset + layout */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+}
+
+/* Root container */
+#root {
+  width: 100%;
+}
+
+/* Smooth scrollbar (optional) */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #ddd6fe;
+  border-radius: 10px;
+}
